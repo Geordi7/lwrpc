@@ -1,0 +1,31 @@
+{
+  "name": "lwrpc",
+  "version": "0.99.0",
+  "description": "Lightweight Remote Procedure Call",
+  "main": "lib/lwrpc.js",
+  "types": "lib/lwrpc.d.ts",
+  "scripts": {
+    "format": "npx prettier --write src/*",
+    "lint": "npx tslint -p .",
+    "test": "npx tsc && node_modules/mocha/bin/mocha lib/test.js",
+    "build": "npx tsc && npx tsc -d"
+  },
+  "keywords": [
+    "typescript",
+    "lightweight",
+    "remote",
+    "procedure",
+    "call"
+  ],
+  "author": "Geordi Filiotis",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/assert": "*",
+    "@types/mocha": "*",
+    "assert": "*",
+    "mocha": "*",
+    "prettier": "*",
+    "tslint": "*",
+    "typescript": "*"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "await-promise": true,
+        "ban-comma-operator": true,
+        "object-literal-sort-keys": false,
+        "no-console": false,
+        "interface-over-type-literal": false,
+        "quotemark": [true, "single", "avoid-escape", "avoid-template"],
+        "no-trailing-whitespace": [true, "ignore-blank-lines"],
+        "indent": [true, "spaces"],
+        "no-empty": false
+    },
+    "rulesDirectory": [],
+    "linterOptions": {
+        "exclude": [],
+        "include": [
+            "src/**/*.ts"
+        ]
+    }
+}
